@@ -1,0 +1,121 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* Header */
+header {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+/* Alternating background */
+.about {
+    background: #f4f4f4;
+}
+
+.features {
+    background: #ffffff;
+}
+
+.benefits {
+    background: #f4f4f4;
+}
+
+/* CTA Section */
+.cta {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+}
+
+.cta button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #facc15;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta button:hover {
+    background: #eab308;
+}
+
+/* Contact */
+.contact {
+    background: #ffffff;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    color: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    header {
+        padding: 40px 10px;
+    }
+
+    .container {
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .cta button {
+        width: 100%;
+    }
+}
